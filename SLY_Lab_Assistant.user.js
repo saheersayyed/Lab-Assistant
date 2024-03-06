@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         SAGE Lab Assistant Modded
+// @name         SAGE Lab Assistant March Edition 
 // @namespace    http://tampermonkey.net/
 // @version      0.4.3m8
 // @description  try to take over the world!
