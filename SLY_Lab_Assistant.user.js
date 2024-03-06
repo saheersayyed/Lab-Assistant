@@ -1654,7 +1654,45 @@
 			transportLabel1.style.width = '84px';
 			transportLabel1.style.minWidth = '84px';
 
-			let transportResources = ['','Ammo','Food','Fuel','SDU','Toolkit','Arco','Biomass','Carbon','Copper Ore', 'Copper','Diamond','Hydrogen','Iron Ore', 'Iron','Lumanite','Rochinol','Framework','Graphene','Radiation Absorber','Electronics','Particle Accelerator','Power Source','Electromagnet','Copper Wire','Magnet','Polymer','Crystal Lattice'];
+			let transportResources = ['',
+	// Consumables
+            'Ammo',
+            'Food',
+            'Fuel',
+            'Toolkit',
+         // Data
+            'SDU',
+
+         // Raw Material
+            'Arco',
+            'Biomass',
+            'Carbon',
+            'Copper Ore',
+            'Diamond',
+            'Hydrogen',
+            'Iron Ore',
+            'Lumanite',
+            'Rochinol',
+          // Components
+            'Energy Substrate',
+            'Framework',
+            'Particle Accelerator',
+            'Power Source',
+            'Electromagnet',
+            'Radiation Absorber',
+            'Strange Emitter',
+          // Compound Material
+            'Crystal Lattice',
+            'Copper Wire',
+            'Copper',
+            'Electronics',
+            'Graphene',
+            'Hydrocarbon',
+            'Iron',
+            'Magnet',
+            'Polymer',
+            'Steel'
+	];
 			let transportOptStr = '';
 			transportResources.forEach( function(resource) {transportOptStr += '<option value="' + resource + '">' + resource + '</option>';});
 			let transportResource1 = document.createElement('select');
